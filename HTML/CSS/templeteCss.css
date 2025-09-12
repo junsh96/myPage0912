@@ -1,0 +1,12 @@
+#sideBar{
+    float: left;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    margin: 0 auto;
+    
+}
