@@ -1,0 +1,13 @@
+#cafeInfo{
+    border: 1px solid black;
+}
+#sideMenu{
+    border: 1px solid black;
+    
+}
+#sideMenu li{
+    border-bottom: 1px solid black;
+}
+a{
+    color: black;
+}
