@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#advImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#cafeImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+#map{
+    width: 20%;
+    height: 50%;
+}
+#tableList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#note{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    
+}   
+#newList,#popList{
+    border: 1px solid black;
+}
+
+table{
+    width:490px;
+}
