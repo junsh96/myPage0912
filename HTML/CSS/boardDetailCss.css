@@ -1,37 +1,100 @@
-#boardDetail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-#boardDetail > input{
-    width:20%;
-}
-#boardDetailText{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#comment{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 153px;
-}
-#commentArea{
-    border: 1px solid black;
-    width: 725px;
-}
-table{
-    width: 100%;
-}
-#pageNo{
-    display: flex;
-    justify-content: center;
-    margin-left: 153px;
+main {
+    margin-left: 260px;   
+    padding: 20px;
 }
 
-#pageNo > ul{
+
+#boardDetail {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#boardDetail > input {
+    width: 20%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+
+#boardDetailText {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#boardDetailText > textarea {
+    width: 90%;
+    max-width: 900px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: none;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+#comment {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#commentArea {
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+}
+
+#commentArea table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#commentArea td {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#commentArea tr:last-child td {
+    border-bottom: none;
+}
+
+
+#pageNo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pageNo > ul {
     display: flex;
     gap: 10px;
+    padding: 0;
+}
+
+#pageNo > ul > li > a {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007dc2;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+#pageNo > ul > li > a:hover {
+    background: #007dc2;
+    color: #fff;
+    border-color: #007dc2;
 }
