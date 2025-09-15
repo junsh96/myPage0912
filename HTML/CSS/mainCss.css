@@ -1,12 +1,4 @@
-/* 기본 스타일 */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Noto Sans KR", sans-serif;
-}
 
-/* 배너 */
 #advImg {
     display: flex;
     align-items: center;
@@ -19,7 +11,7 @@
     border-radius: 12px;
 }
 
-/* 소개 문구 */
+
 #note {
     display: flex;
     justify-content: center;
@@ -29,7 +21,7 @@
     color: #2c3e50;
 }
 
-/* 이미지 영역 */
+
 #cafeImg {
     display: flex;
     align-items: center;
@@ -47,7 +39,7 @@
     transform: scale(1.05);
 }
 
-/* 게시판 */
+
 #tableList {
     display: flex;
     justify-content: center;
@@ -67,7 +59,7 @@
     padding-left: 10px;
 }
 
-/* 테이블 */
+
 table {
     width: 100%;
     border-collapse: collapse;
