@@ -7,37 +7,44 @@
     <link rel="stylesheet" href="./CSS/comCss.css">
     <link rel="stylesheet" href="./CSS/mainCss.css">
     <link rel="stylesheet" href="./CSS/templateCss.css">
+    <link rel="stylesheet" href="./CSS/pretty.css">
 </head>
 
 <body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type = "text/javascript" src = "template.js"></script>
+    <script type="text/javascript" src="template.js"></script>
+
     <div id="header"></div>
     <div id="sideBar"></div>
+    
     <main>
-        
+        <!-- 광고 배너 -->
         <div id="advImg">
-            <img src="./CSS/images/banner.PNG">
+            <img src="./CSS/images/banner.PNG" alt="배너 이미지">
         </div>
+
+        <!-- 소개 문구 -->
         <div id="note">
-            <p>자전거 국토종주 관련 정보 공유 카페입니다.</p>
+            <p>자전거 국토종주 관련 정보 공유 카페</p>
         </div>
+
+        <!-- 이미지 영역 -->
         <div id="cafeImg">
-            <img src="./CSS/images/국토종주.JPG" id="map" alt="국토종주 사진">
+            <img src="./CSS/images/국토종주.JPG" id="map" alt="국토종주 지도">
             <img src="./CSS/images/국토종주2.JPG" id="img1" alt="자전거 사진">
         </div>
-        <br>
+
+        <!-- 게시판 영역 -->
         <div id="tableList">
-            
-            <div id="newList">
-                최신글
-                <table border="1">
+            <div class="board" id="newList">
+                <h2>최신글</h2>
+                <table>
                     <thead>
                         <tr>
-                            <td>No.</td>
-                            <td>제목</td>
-                            <td>작성자</td>
-                            <td>작성일</td>
+                            <th>No.</th>
+                            <th>제목</th>
+                            <th>작성자</th>
+                            <th>작성일</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -74,15 +81,16 @@
                     </tbody>
                 </table>
             </div>
-            <div id="popList">
-                인기글
-                <table border="1">
+
+            <div class="board" id="popList">
+                <h2>인기글</h2>
+                <table>
                     <thead>
                         <tr>
-                            <td>No.</td>
-                            <td>제목</td>
-                            <td>작성자</td>
-                            <td>작성일</td>
+                            <th>No.</th>
+                            <th>제목</th>
+                            <th>작성자</th>
+                            <th>작성일</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -120,9 +128,7 @@
                 </table>
             </div>
         </div>
-
     </main>
-    <br>
 
     <hr>
     <div id="footer"></div>
